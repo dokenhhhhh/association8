@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>密码修改</title>
+        <style type="text/css">
+            form
+            {
+                width:100%;
+                height:700px;
+                 margin-top: 0px;
+                background:#008B8B;
+            }
+            div
+            {
+                display:inline-block;
+                padding-top: 40px;
+                padding-left: 0px;
+                
+            }
+            h2
+            {
+                font-family: "微软雅黑";
+            font-size: 40px;
+                color:black;
+            }
+            #reg
+            {
+                color:blue;
+            }
+        </style>
+    </head>
+    <body background=""
+       style=" background-repeat:no-repeat ;
+        background-size:100% 100%;
+		background-attachment: fixed;">
+        <form action="ChangePwd">
+            <div>
+            <h3>
+            密码修改
+        </h3>
+        <p>
+                用 户 名:${loginName} 
+            </p>
+            <!-- <p>
+                原密码:<input type="password"/>
+            </p> -->
+            <p>
+                新密码:<input type="password" name="pwd"/>
+            </p>
+            <p>
+                新密码确认:<input type="password" name="pwd2"/>
+            </p>
+           <p>
+				<label class="title">立即修改<input type="submit" name="submit"></label>
+            </p>
+        </form>    
+            </div>
+        
+        
+    </body>
+</html>
